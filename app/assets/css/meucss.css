@@ -1,3 +1,7 @@
 .u {
     font-size: 800px;
 }
+
+li {
+    list-style: none;
+}

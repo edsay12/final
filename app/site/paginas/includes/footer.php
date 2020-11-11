@@ -1,7 +1,20 @@
 
+<div class="container-fluid bg-primary py-3">
 
+<footer class="container text-center " >
+<img src="app/assets/img/footer.png" class="img-fluid rounded-circle py-2" alt="">
+</div>
+</footer>
 
-<h1>footer</h1>
+<div class="container-fluid text-center bg-danger">
+
+<small class="" >
+
+Todos os direitos reservados &copy; 2020.
+
+</small>
+
+</div>
 
 <!-- Fim Rodape -->
 

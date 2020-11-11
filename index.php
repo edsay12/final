@@ -1,25 +1,39 @@
 
 
 <?php
-
+// headee
 include_once "app/site/paginas/includes/header.php";
-
 
 // <!-- navegaçao -->
 include_once "app/site/paginas/includes/navegaçao.php";
-// <!-- Fim navegaçao -->
-
-
-// <!-- fim header -->
 
 // <!-- Paginas do meu site -->
-echo "<h1>Minhas paginas</h1>";
 
-// <!-- Fim paginas do meu site -->
+$paginas=isset($_GET['pg']);
 
+if ($paginas) {
+   
+switch ($_GET['pg']) {
+    case 'contato':
+       include_once "app/site/paginas/contato.php";
+        break;
+    
+    case 'produtos':
+        include_once "app/site/paginas/produtos.php";
+        break;
+  
+        break;
+    case 'inicial':
+        include_once "app/site/paginas/inicial.php";
+        break;
+
+}
+
+} else {
+    include_once "app/site/paginas/inicial.php";
+}
 
 // <!-- Rodape -->
-
 
 include_once "app/site/paginas/includes/footer.php";
 
