@@ -1,1 +1,8 @@
-<h1>contato</h1>
+<div class="container  text-center">
+
+
+
+
+
+
+</div>

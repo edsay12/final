@@ -1,12 +1,12 @@
 
-<div class="container-fluid bg-primary py-3">
+<div class="container bg-primary ">
 
 <footer class="container text-center " >
 <img src="app/assets/img/footer.png" class="img-fluid rounded-circle py-2" alt="">
 </div>
 </footer>
 
-<div class="container-fluid text-center bg-danger">
+<div class="container text-center bg-danger">
 
 <small class="" >
 

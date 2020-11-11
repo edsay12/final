@@ -18,11 +18,11 @@
 
 
 </head>
-<body  style="cursor: url('app/assets/img/arrow-147279_960_720.cur'), apontar;">
+<body >
     
 <div class="container">
-<img src="app/assets/img/header.jpg" class="img-fluid" alt="">
+<img src="app/assets/img/header.jpg" class="img-fluid " alt="">
 
-</div>-
+</div>
 
 <!-- header -->

@@ -38,3 +38,5 @@ switch ($_GET['pg']) {
 include_once "app/site/paginas/includes/footer.php";
 
 ?>  
+
+
