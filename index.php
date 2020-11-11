@@ -21,6 +21,9 @@ switch ($_GET['pg']) {
     case 'produtos':
         include_once "app/site/paginas/produtos.php";
         break;
+    case 'validalogin':
+        include_once "app/site/paginas/validalogin.php";
+        break;
   
         break;
     case 'inicial':
