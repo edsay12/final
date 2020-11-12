@@ -14,23 +14,15 @@ $paginas=isset($_GET['pg']);
 if ($paginas) {
    
 switch ($_GET['pg']) {
-    case 'contato':
-       include_once "app/site/paginas/contato.php";
+    case 'cpanel':
+       include_once "app/paineladm/paginas/login.php";
         break;
     
-    case 'produtos':
-        include_once "app/site/paginas/produtos.php";
-        break;
-    case 'validalogin':
-        include_once "app/site/paginas/validalogin.php";
-        break;
-  
-        break;
     case 'inicial':
-        include_once "app/site/paginas/inicial.php";
+       include_once "app/site/paginas/inicial.php";
         break;
+    
 
-       
 
 }
 

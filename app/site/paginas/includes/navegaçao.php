@@ -25,20 +25,52 @@
         
 
       </ul>
-      <form class="form-inline ">
+
+
+      <?php
+
+
+if(isset($_SESSION[''])) { ?>
+ 
+  
+
+<form class="form-inline ">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="icon-user"></span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
+
             <a class="dropdown-item  text-danger" href="#"> <span class="icon-exit"></span> Sair</a>
           </div>
         </li>
+
+</form>
+
+<?php
+
+}else { ?>
+  
+ <form class="form-inline ">
+ <li class="nav-item active">
+          <a class="nav-link  <?php echo (($_GET['pg'] == 'inicial') ? 'border-bottom border-primary' : '' );   ?> " href="cpanel.php?pg=cpanel" >inicial <span class="sr-only">(current)</span></a>
+        </li>
         
       </form>
+
+
+  <?php
+}
+
+
+
+?>
+
+      
+        
+      
+     
+
     </div>
   </nav>
 </div>
