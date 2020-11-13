@@ -7,33 +7,30 @@
 // <!-- navegaçao -->
 
 
-// <!-- Paginas do meu site -->
+// <!-- Paginas do meu site --
 
-$paginas=isset($_GET['pg']);
+if (!isset($_SESSION['usuario'])) {
+    $usuario = "edvan@hotmail.com";
+    $senha = '123456';
 
-if ($paginas) {
-   
+session_start();
+$_SESSION['usuario']=$usuario; 
+$_SESSION['email']=$senha; 
+
 switch ($_GET['pg']) {
     case 'cpanel':
-       include_once "app/paineladm/paginas/login.php";
+    include_once "app/paineladm/index.php";
         break;
     
-    case 'inicial':
-       include_once "app/site/paginas/inicial.php";
+    case 'login':
+        include_once "app/paineladm/index.php";
         break;
     
-
-
+    
+    
 }
+
 
 } else {
-    include_once "app/site/paginas/inicial.php";
-}
-
-// <!-- Rodape -->
-
-
-
-?>  
-
-
+    include_once "app/paineladm/paginas/login.php";
+  }
