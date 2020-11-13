@@ -1,4 +1,4 @@
-<div class="container">
+<div >
   <nav class="navbar navbar-expand-lg navbar-danger alert-primary">
 
    <a href="?pg=inicial"><img src="app/assets/img/logo.png"  href="" alt=""></a>
@@ -53,7 +53,7 @@ if(isset($_SESSION[''])) { ?>
   
  <form class="form-inline ">
  <li class="nav-item active">
-          <a class="nav-link  <?php echo (($_GET['pg'] == 'inicial') ? 'border-bottom border-primary' : '' );   ?> " href="cpanel.php?pg=cpanel" >inicial <span class="sr-only">(current)</span></a>
+          <a class="nav-link " href="cpanel.php?pg=cpanel" >login <span class="sr-only">(current)</span></a>
         </li>
         
       </form>

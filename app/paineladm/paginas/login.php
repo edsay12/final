@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Log in</title>
+  <title>ADM PAGE</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -16,9 +16,9 @@
   <link rel="stylesheet" href="app/assets/css/meucss.css">
 </head>
 <body class="hold-transition login-page">
-<div class="login-box col-6 py-5">
-  <div class="login-logo">
-    <a href="../../index2.html"><b>Painel</b>Administrativo</a>
+<div class="login-box col-12 py-5">
+  <div class="login-logo text-center ">
+    <a href="index.php?pg=inicial"><b>Painel</b>Administrativo</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -26,7 +26,7 @@
       <p class="login-box-msg">logue para iniciar a seçao</p>
 
       <form action="" method="post">
-        <div class="input-group mb-3">
+        <div class="input-group  mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
             <div class="input-group-text">
@@ -63,7 +63,11 @@
         
       </div>
       </form>
-
+      <div class="social-auth-links text-center mb-3">
+       <a href="index.php?pg=inicial">
+       <button type="submit" class="btn btn-primary btn-block">voltar</button>
+       </a>
+     </div>
      
       <!-- /.social-auth-links -->
 

@@ -20,8 +20,8 @@
 </head>
 <body >
     
-<div class="container">
-<img src="app/assets/img/header.jpg" class="img-fluid " alt="">
+<div class="container-fluid p-0">
+<img src="app/assets/img/header.jpg" class="img-fluid p-0 w-100 " alt="">
 
 </div>
 
